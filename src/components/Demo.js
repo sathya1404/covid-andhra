@@ -51,7 +51,7 @@ import axios from 'axios'
         const {data,info,loading}=this.state
         return (
             <div >
-                <h3>Cobid19 Andhra Statastics</h3> 
+                <h3>Covid19 Andhra Statastics</h3> 
                 {loading ?  
                 <div style={{backgroundColor:"black",color:"yellow",display:"inline-block",width:"300px",height:"210px"}}>
               <p>Active Cases : {info.active}</p>
@@ -66,7 +66,7 @@ import axios from 'axios'
         <thead>
           <tr>
               <th>SNO</th>
-              <th>State</th>
+              <th>District</th>
               <th>Total Cases</th>
           </tr>
         </thead>
